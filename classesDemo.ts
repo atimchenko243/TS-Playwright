@@ -5,18 +5,14 @@ import {Trader, QAengineer} from "./classesHomework.ts";
 const trader1 = new Trader();
 trader1.id = 1;
 trader1.username = 'vitek228';
-trader1.regDate = '2020-06-01';
-trader1.accBalance = 676767;
 
 const trader2 = new Trader();
 trader2.id = 2;
 trader2.username = 'loodick1337';
-trader2.regDate = '2026-06-01';
-trader2.accBalance = -10000000;
 
-let qa1 = new QAengineer(1, 'Vitya', false, 'manual only')
+let qa1 = new QAengineer(1, 'Vitya', false)
 
-let qa2 = new QAengineer(2, 'Marina', true, 'TypeScript + PlayWright')
+let qa2 = new QAengineer(2, 'Marina', true)
 
 // check outputs
 showSeparator();
